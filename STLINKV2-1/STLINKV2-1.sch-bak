@@ -373,27 +373,27 @@ P_SWDIO
 Text Label 4050 7450 2    50   ~ 0
 P_SWCLK
 Wire Wire Line
-	8950 5650 8500 5650
+	8775 5550 8325 5550
 Wire Wire Line
-	8950 5750 8500 5750
+	8775 5650 8325 5650
 Wire Wire Line
-	8950 5850 8500 5850
+	8775 5750 8325 5750
 Wire Wire Line
-	8950 6050 8500 6050
+	8775 6050 8325 6050
 Wire Wire Line
-	8950 6150 8500 6150
-Text Label 8500 5650 0    50   ~ 0
+	8775 6150 8325 6150
+Text Label 8325 5550 0    50   ~ 0
 SWDIO0
-Text Label 8500 5750 0    50   ~ 0
+Text Label 8325 5650 0    50   ~ 0
 SWCLK0
-Text Label 8500 5850 0    50   ~ 0
+Text Label 8325 5750 0    50   ~ 0
 SWO0
-Text Label 8500 6050 0    50   ~ 0
+Text Label 8325 6050 0    50   ~ 0
 P_TXD
-Text Label 8500 6150 0    50   ~ 0
+Text Label 8325 6150 0    50   ~ 0
 P_RXD
 Wire Wire Line
-	8500 5950 8950 5950
+	8325 5850 8775 5850
 Wire Wire Line
 	10100 5150 9750 5150
 Wire Wire Line
@@ -544,7 +544,7 @@ F 1 "Top" H 10380 5301 50  0000 L CNN
 F 2 "Connector_Harwin:Harwin_M20-89005xx_1x05_P2.54mm_Horizontal" H 10300 5350 50  0001 C CNN
 F 3 "~" H 10300 5350 50  0001 C CNN
 	1    10300 5350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x05 J4
@@ -555,29 +555,18 @@ F 1 "Buttom" H 10380 5951 50  0000 L CNN
 F 2 "Connector_Harwin:Harwin_M20-89005xx_1x05_P2.54mm_Horizontal" H 10300 6000 50  0001 C CNN
 F 3 "~" H 10300 6000 50  0001 C CNN
 	1    10300 6000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 5E032577
-P 8500 5950
-F 0 "#PWR020" H 8500 5700 50  0001 C CNN
-F 1 "GND" V 8505 5822 50  0000 R CNN
-F 2 "" H 8500 5950 50  0001 C CNN
-F 3 "" H 8500 5950 50  0001 C CNN
-	1    8500 5950
+P 8325 5850
+F 0 "#PWR020" H 8325 5600 50  0001 C CNN
+F 1 "GND" V 8330 5722 50  0000 R CNN
+F 2 "" H 8325 5850 50  0001 C CNN
+F 3 "" H 8325 5850 50  0001 C CNN
+	1    8325 5850
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J2
-U 1 1 5E00A511
-P 9150 5850
-F 0 "J2" H 9230 5842 50  0000 L CNN
-F 1 "UART" H 9230 5751 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 9150 5850 50  0001 C CNN
-F 3 "~" H 9150 5850 50  0001 C CNN
-	1    9150 5850
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R9
@@ -1282,4 +1271,26 @@ Wire Wire Line
 	8975 1500 8725 1500
 Wire Wire Line
 	10375 1300 10750 1300
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5DF53DF0
+P 8975 5650
+F 0 "J2" H 9055 5642 50  0000 L CNN
+F 1 "Conn_01x04" H 9055 5551 50  0000 L CNN
+F 2 "" H 8975 5650 50  0001 C CNN
+F 3 "~" H 8975 5650 50  0001 C CNN
+	1    8975 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5DF5479C
+P 8975 6050
+F 0 "J5" H 9055 6042 50  0000 L CNN
+F 1 "Conn_01x02" H 9055 5951 50  0000 L CNN
+F 2 "" H 8975 6050 50  0001 C CNN
+F 3 "~" H 8975 6050 50  0001 C CNN
+	1    8975 6050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

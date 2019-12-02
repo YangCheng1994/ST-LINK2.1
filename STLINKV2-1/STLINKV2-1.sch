@@ -555,7 +555,7 @@ F 1 "Buttom" H 10380 5951 50  0000 L CNN
 F 2 "Connector_Harwin:Harwin_M20-89005xx_1x05_P2.54mm_Horizontal" H 10300 6000 50  0001 C CNN
 F 3 "~" H 10300 6000 50  0001 C CNN
 	1    10300 6000
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR020
@@ -1277,7 +1277,7 @@ U 1 1 5DF53DF0
 P 8975 5650
 F 0 "J2" H 9055 5642 50  0000 L CNN
 F 1 "Conn_01x04" H 9055 5551 50  0000 L CNN
-F 2 "" H 8975 5650 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8975 5650 50  0001 C CNN
 F 3 "~" H 8975 5650 50  0001 C CNN
 	1    8975 5650
 	1    0    0    -1  
@@ -1288,7 +1288,7 @@ U 1 1 5DF5479C
 P 8975 6050
 F 0 "J5" H 9055 6042 50  0000 L CNN
 F 1 "Conn_01x02" H 9055 5951 50  0000 L CNN
-F 2 "" H 8975 6050 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8975 6050 50  0001 C CNN
 F 3 "~" H 8975 6050 50  0001 C CNN
 	1    8975 6050
 	1    0    0    -1  
