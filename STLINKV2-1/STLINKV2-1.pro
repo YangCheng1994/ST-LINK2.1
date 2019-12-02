@@ -1,4 +1,4 @@
-update=2019/12/2 15:23:06
+update=2019/12/2 21:17:34
 version=1
 last_client=kicad
 [general]
@@ -39,10 +39,12 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.254
+TrackWidth2=0.254
+TrackWidth3=0.381
 ViaDiameter1=0.4572
 ViaDrill1=0.3048
 dPairWidth1=0.254
-dPairGap1=0.00508
+dPairGap1=0.254
 dPairViaGap1=0.25
 dPairWidth2=0.254
 dPairGap2=0.00508
@@ -240,18 +242,18 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.00508
+Clearance=0.127
 TrackWidth=0.254
 ViaDiameter=0.4572
 ViaDrill=0.3048
 uViaDiameter=0.254
 uViaDrill=0.127
 dPairWidth=0.254
-dPairGap=0.00508
+dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=POWER
-Clearance=0.254
+Clearance=0.127
 TrackWidth=0.381
 ViaDiameter=0.508
 ViaDrill=0.381
@@ -262,12 +264,12 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=SIGNAL
-Clearance=0.00508
+Clearance=0.127
 TrackWidth=0.254
 ViaDiameter=0.4572
 ViaDrill=0.3048
 uViaDiameter=0.254
 uViaDrill=0.127
 dPairWidth=0.254
-dPairGap=0.00508
+dPairGap=0.254
 dPairViaGap=0.25
